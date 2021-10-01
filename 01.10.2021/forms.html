@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url(https://bilimgenc.tubitak.gov.tr/sites/default/files/078_s.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+
+
+        }
+    </style>
+</head>
+
+<html>
+
+<body>
+
+
+
+
+<h1 style="color: rgb(20, 100, 56); text-align: center;"> HTML FORMS </h1>     
+
+
+    <hr>
+
+    <form>
+        <label for="username"> <b>enter username:</b> </label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <br><br>
+        <label for="email"> <b>enter email:</b> </label>
+        <input type="email" id="email" name="email" placeholder="your email" required>
+        <br><br>
+        <label for="password"> <b>password:</b> </label>
+        <input type="password" id="password" name="password" placeholder="choose a password" required maxlength="6">
+
+        <p> <b> select your age: </b> </p>
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-3">51+</label>
+
+        <br><br>
+
+        <label for="question"> <b>select question: <b> </label>
+        <select name="question" id="question">
+            <option value="q1">what is your favorite color?</option>
+            <option value="q2">if you could be a vegetable, what it be?</option>
+            <option value="q3">what is your best ever security question?</option>
+
+        </select>
+
+        <br></br>
+
+        <label for="answer"><b>security question answer: </b></label>
+        <input type="text" id="answer" name="answer">
+
+        <br></br>
+
+        <label for="bio"> <b>your bio: </b> </label> <br></br>
+        <textarea name="bio" id="bio" cols="20" rows="12" placeholder="about you..."></textarea>
+
+        <br></br>
+
+        <br><br>
+        <input type="color">name:</input>
+
+        <br>
+
+        <input type="text" name="firstname" placeholder="name"><br>
+
+        <input type="color">surname: </input>
+
+        surname:<br>
+        <input type="text" name="lastname" placeholder="surname"><br><br>
+
+        date: <br>
+        <input type="date" name="date" placeholder="date"><br><br>
+
+        aklimdan hangi sayiyi tuttum?
+        <input type="number" min="0" max="10"> <br><br>
+
+        beni ne kadar cok seviyorsun?
+        <input type="range" min="1" max="100"></input> <br><br>
+
+        saat kac?
+        <input type="time"></input> <br><br>
+
+        bana kedi fotografi gönderebilmen icin:
+        <input type="file" accept="image/*"></input> <br><br>
+
+        gender: <br>
+        <input type="radio" name="gender" value="male" checked> man<br>
+        <input type="radio" name="gender" value="female"> woman<br>
+
+        city :<br>
+        <select name="city">
+            <option value="kocaeli">Kocaeli</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara">Ankara</option>
+            <option value="izmir">İzmir</option>
+        </select>
+        <br>
+        <br><br>
+
+        <label>
+
+            <input type="checkbox" checked>kuralları okudum, kabul ediyorum.</input>
+
+
+        </label>
+
+        <br><br>
+
+
+        <input type="submit" value="Submit the form">
+
+        <br><br>
+
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
