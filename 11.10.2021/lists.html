@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        .countries li {
+            list-style-type: none;
+
+        }
+
+        .countries li {
+            position: relative;
+        }
+
+
+        .countries li::before {
+            content: "\25c6";
+            position: absolute;
+            left: -1em;
+            color: orange;
+        }
+
+        #navigation li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        #navigation li {
+            float: left;
+        }
+
+        #navigation li a {
+            list-style-type: none;
+            display: block;
+            color: white;
+            margin: 20px;
+            padding: 25px;
+            text-decoration: none;
+        }
+
+        #navigation li a:hover {
+            background-color: #111111;
+
+
+        }
+    </style>
+
+</head>
+
+<body style="background-color: slategray;">
+    <div id="ikiliDiv" style="display: flex; border: solid 2px;width: 100%;">
+        <div id="sirasiz" style="margin-right: 5px; width: 50%;" >
+            <h1 style="text-align: center;">UNORDERED LİST</h1>
+            <ul type="IE">
+                <li>alienation</li>
+                <li>alienus</li>
+                <li>allotrios</li>
+            </ul>
+        </div>
+
+        <div id="sirali" style="border-left: solid 2px; width: 50%;" >
+            <h1 style= "text-align: center;">ORDERED LİST</h1>
+            <ol type="I">
+        <li>alienation</li>
+        <li>alienus</li>
+        <li>allotrios</li>
+    </ol>
+</div> 
+</div>
+<br> <br>
+<div id=" tanimli">
+                <h>DESCRİPTİON LİST</h>
+                <dl>
+                    <dt>coffee</dt>
+                    <dd>black hot drink</dd>
+                    <dt>milk</dt>
+                    <dd>white cold drink</dd>
+                </dl>
+        </div>
+        <div>
+            <h1>disc</h1>
+            <ul type="disk">
+                <li>blue</li>
+                <li>orange</li>
+                <li>black</li>
+            </ul>
+        </div>
+        <div>
+            <h1>square</h1>
+            <ul type="square">
+                <li>blue</li>
+                <li>orange</li>
+                <li>black</li>
+            </ul>
+        </div>
+        <div>
+            <h1>none</h1>
+            <ul type="none">
+                <li>blue</li>
+                <li>orange</li>
+                <li>black</li>
+            </ul>
+        </div>
+        <div>
+            <h1>circle</h1>
+            <ul style="list-style-type: circle ;">
+                <li>blue</li>
+                <li>orange</li>
+            </ul>
+        </div>
+        <div id="iç içe">
+            <h1>nested list</h1>
+            <ol>
+                <li>coffee</li>
+                <li>tea</li>
+                <ul style="list-style-type: disc;">
+                    <li>black tea</li>
+                    <li>green tea</li>
+                </ul>
+            </ol>
+        </div>
+        <div id="css">
+            <h1>CSS TO STYLE THE LIST</h1>
+            <ol class="countries">
+                <li>Norway</li>
+                <li>California</li>
+                <li>İceland</li>
+            </ol>
+        </div>
+
+        <div id="özellik">
+            <h1 style="text-align: center;">NAVIGATION MENU</h1>
+            <ul id="navigation">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="NEWS">NEWS</a></li>
+                <li><a href="contact">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+            </ul>
+
+        </div>
+
+
+
+
+
+</body>
+
+</html>
