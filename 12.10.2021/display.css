@@ -1,92 +1,84 @@
 .city {
-    background-color: darkgoldenrod;
-    color: #c7c5c5;
-    border: 3px solid black;
-    margin: 20px;
-    padding: 20px;
-
+  background-color: darkgoldenrod;
+  color: #c7c5c5;
+  border: 3px solid black;
+  margin: 20px;
+  padding: 20px;
 }
 
-
 .centered {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 h1 {
-    margin: 0px;
+  margin: 0px;
 }
 #city {
-    background-color: rgb(80, 80, 240);
-    color: #c7c5c5;
-    border: 3px solid black;
-    margin: 20px;
-    padding: 20px;
+  background-color: rgb(80, 80, 240);
+  color: #c7c5c5;
+  border: 3px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 10px;
-  }
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 10px;
+}
 
-  .img {
-    width: 100%;
-  }
+.img {
+  width: 100%;
+  padding-bottom: 1em;
+}
 
-  .link {
-      color: black;
-      text-decoration: none;
-      
-    }
+.link {
+  color: black;
+  text-decoration: none;
+}
 
-  a:link {
-      color: black;
-  }
-  a:visited {
-      color:rgb(158, 59, 59)
-      }
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(158, 59, 59);
+}
 
-  a:hover {
-      color: rgb(62, 95, 90);
-      text-decoration: underline;
-     }
-     .priceRegular {
-        font-size: 13px;
-        letter-spacing: 0px;
-        line-height: 20px;
-        text-overflow: ellipsis;
-        text-transform: none;
-        white-space: nowrap;
-        overflow: hidden;
+a:hover {
+  color: rgb(62, 95, 90);
+  text-decoration: underline;
+}
+.priceRegular {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
 
-     }
+.h1 {
+  background-image: url("https://i.pinimg.com/1200x/22/f6/19/22f619c22fb61cffb4711f319e925f4f.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-     .h1 {
-         background-image: url( "https://i.pinimg.com/1200x/22/f6/19/22f619c22fb61cffb4711f319e925f4f.jpg");
-         background-repeat:no-repeat;
-         background-size: cover;
-         }
-
-    .h2 {
-        color: white;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-color:red;
-        overflow: hidden
-    }
-
-    
-
-
-
-
-
-
-
+.h2 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: red;
+  overflow: hidden;
+}
