@@ -1,6 +1,6 @@
 body {
     background: url( "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dostoevsky_1872.jpg/220px-Dostoevsky_1872.jpg");
-    background-repeat: no-repeat;
+    no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
@@ -41,7 +41,6 @@ a {
 }
 .text-centered {
     text-align: center;
-    margin-bottom: 10px !important;
 }
 .container {
     width: 50%;
@@ -58,8 +57,4 @@ a {
 div {
     border-radius: 10px;
     box-shadow: 0px 0px 5px whitesmoke
-}
-
-.p-1 {
-    padding: 0.5em;
 }
