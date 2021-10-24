@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+.img1, .img2, .img3 {
+    position: relative;
+    opacity: 0.8;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+
+.img1 {
+    background-image: url("https://render.fineartamerica.com/images/rendered/default/print/6/8/break/images/artworkimages/medium/1/dandelion-barbara-regina-dietzsch.jpg");
+    min-height: 100px;
+}
+
+div {
+    display: block;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    border: 4px solid #2c2b2b;
+    background-color: #a9a0a0;
+    color: #040404;
+    padding: 20px;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.text-centered {
+    display: table;
+    height: 400px;
+    width: 200px;
+}
+
+section {
+    display: block;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light {
+    background-color: #797e7a;
+    color: #2c2b2b;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.img2 { 
+    background-image: url( "https://64.media.tumblr.com/tumblr_l62zg1Yr5q1qzyn4jo1_1280.jpg");
+    min-height: 400px;
+}
+
+.section-dark {
+    background-color: #2b343d;
+    color: #ddd;
+}
+
+.img3 {
+    background-image: url("https://64.media.tumblr.com/tumblr_l62zg1Yr5q1qzyn4jo1_1280.jpg");
+   min-height: 200px;
+   padding-bottom: 20px;
+}
+.border-img { 
+    border: 4px solid #2c2b2b;
+    background-color: #a9a0a0;
+    color: #040404;
+    padding: 14px;
+    top: 10px;
+    text-align: center;
+}
