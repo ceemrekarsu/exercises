@@ -1,0 +1,181 @@
+.fixed-topbar {
+    width: 50%;
+    padding: 20px;
+    background-color: #000000;
+    color: #ff7f50;
+    text-align: center;
+    position: fixed;
+    left: 70px;
+}
+.a {
+    width: 50%;  
+    color: #ff7f50;
+    text-align: center;
+    position: fixed;
+    left: 98px;
+    top: 50px;
+}
+.a {
+    position: relative;
+    -webkit-animation: a 7s linear 3s infinite alternate;
+    animation: a 7s linear 3s infinite alternate;
+}
+
+@keyframes a {
+    0% {top: 50px;}
+    25% {top: 0px;}
+    50% {top: 50px;}
+    75% {top: 0px;}
+    100% {top: 50px;}
+} 
+
+.third {
+    background-color: #000000;
+    color: #ff7f50;
+    text-align: center;
+    position: relative;
+    -webkit-animation: third 5s linear 3s infinite alternate;
+    animation: third 5s linear 3s infinite alternate;
+}
+
+@keyframes third {
+    0% {bottom: 0px;}
+    25% {bottom: 50px;}
+    50% {bottom: 0px;}
+    75% {bottom: 50px;}
+    100% {bottom: 0px;}
+} 
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: #334756;
+    position: relative;
+    top: 90px;
+    z-index: 1;
+    border: 1px solid #7e6a6a;
+ }
+.green {
+    width: 100px;
+    height: 100px; 
+    background-color: #0d570d;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    border: 1px solid #7e6a6a;
+}
+.outer-box {
+    width: 100px;
+    height: 100px;
+    background-color: #d34c08;
+    position: relative;
+    border: 1px solid #7e6a6a;
+
+    left: 100px;
+    bottom: 40px;
+}
+.inner-box {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 25px;
+    -webkit-animation: hi 5s linear 2s infinite alternate;
+    animation: hi 5s linear 2s infinite alternate;
+}
+@keyframes hi {
+    0% {background-color: #000000; left: 50px;}
+    25% {background-color: #32502E; left: 0px;}
+    50% {background-color: #000000; left: 50px;}
+    75%  {background-color: #32502E; left: 0px;}
+    100% {background-color: #000000; left: 50px;}
+}
+
+span {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #4e3564;
+    position: relative;
+    left: 71px;
+    bottom: 100px;
+    z-index: -1;
+    color: #000000;
+    
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+.image1 {
+    margin-right: 10px;
+    float: left;
+}
+.image2 {
+    margin-left: 10px;
+    float: right;
+}
+body {
+    background-color: #000000;
+}
+p {
+    font-style: italic;
+    color: #E8E1D9;
+    border: 1px solid #0d570d;
+}
+
+.animations {
+    width: 80px;
+    height: 80px;
+    right: 200px;
+    top: 0px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+    color: #ffffe0;
+    background-color: #09430f;
+    border: 3px solid #d34c08;
+    position:absolute;  
+   -webkit-animation: first 5s linear 2s infinite alternate;
+   animation: first 5s linear 2s infinite alternate;
+}
+@keyframes first {
+    0% {background-color: #4d0d0d; top: 0px; bottom: 0px;}
+    25% {background-color: #0b3664; top: 50px; bottom: 0px;}
+    50% {background-color: #370935; top: 0px; bottom: 50px;}
+    75% {background-color: #521733; top: 50px; bottom: 0px;}
+    100% {background-color: #a58519; top: 0px; bottom: 0px;}
+}
+
+.span1, .span3 {
+    width: 50px;
+    height: 50px;
+    left: 71px;
+    bottom: 100px;
+    position: relative;
+    -webkit-animation: second 3s linear 2s infinite alternate;
+    animation: second 3s linear 2s infinite alternate;
+}
+.span2 {
+    width: 50px;
+    height: 50px;
+    left: 71px;
+    bottom: 100px;
+    position: relative;
+    -webkit-animation: second- 3s linear 2s infinite alternate;
+    animation: second- 3s linear 2s infinite alternate;
+}
+@keyframes second- {
+    0% {bottom: 120px;}
+    25% {bottom: 100px;}
+    50% {bottom: 120px;}
+    75% {bottom: 100px;}
+    100% {bottom: 120px;}
+}
+@keyframes second {
+   0% {bottom: 100px;}
+   25% {bottom: 120px;}
+   50% {bottom: 100px;}
+   75% {bottom: 120px;}
+   100% {bottom: 100px;}
+}
